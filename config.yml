@@ -1,0 +1,26 @@
+# Base configuration
+baseURL: 'https://matthewdickens.com/'
+languageCode: 'en-us'
+title: 'Matt Dickens'
+theme: 'PaperMod'
+
+# Menu
+menu:
+  main:
+  - name: Home
+    pageRef: /
+    weight: 1
+  - name: About
+    pageRef: /about
+    weight: 2
+  - name: Posts
+    pageRef: /posts
+    weight: 3
+  - name: Github
+    url: https://github.com/Toltar
+    weight: 4
+
+params:
+  author: "Matthew Dickens"
+  description: "Thoughts on Technology"
+  Headshot: "/headshot.jpg"
