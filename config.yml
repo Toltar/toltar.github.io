@@ -19,12 +19,13 @@ menu:
   - name: Projects
     pageRef: /projects
     weight: 4
-  - name: Github
-    url: https://github.com/Toltar
-    weight: 5
   - name: Resume
     url: ./resume.pdf
+    weight: 5
+  - name: Github
+    url: https://github.com/Toltar
     weight: 6
+
 
 params:
   author: "Matthew Dickens"
